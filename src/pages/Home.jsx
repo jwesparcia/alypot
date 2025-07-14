@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <div className="md:w-4xl bg-pink-200/50 ml-auto mr-auto p-2 rounded-2xl my-4">
-        <div className="grid grid-cols-2 p-4 items-center gap-5">
+        <div className="md:grid md:grid-cols-2 p-4 items-center gap-5 flex flex-col">
           <div className="ml-auto mr-auto ">
             <img src="/images/pic3.jpg" alt="" className="h-auto md:w-auto  md:h-96 rounded-2xl" />
           </div>
