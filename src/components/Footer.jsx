@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
 
       <div className=" gap-5  font-barlow p-2 ">
-        <h1 className="text-center mb-3">Follow Me</h1>
+        <h1 className="text-center mb-1">Follow Me</h1>
         <div className="flex gap-3 justify-center items-center">
           <div className="flex ">
              <Facebook/>Facebook

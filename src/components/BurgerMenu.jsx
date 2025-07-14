@@ -13,7 +13,7 @@ const BurgerMenu = () => {
 
       {isVisible && (
         <div className="flex md:hidden h-40p-4 ml-auto mr-auto font-barlow">
-          <div className=" flex flex-col justify-center items-center gap-5">
+          <div className=" flex flex-col justify-center items-center gap-2">
             <Link to={"/"}>Home</Link>
             <Link to={"/resume"}>Resume</Link>
             <Link to={"/examplesofwork"}>Examples of Work</Link>
