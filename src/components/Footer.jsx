@@ -7,12 +7,12 @@ const Footer = () => {
   const d = new Date();
   let year = d.getFullYear();
   return (
-    <div className="bg-pink-200/100 font-barlow text-[0.8rem] md:text-[1.2rem] w-auto p-2 md:grid md:grid-cols-2 ">
-      <div className=" flex justify-center gap-3 p-10 w-auto">
-        <div className="">
+    <div className="bg-pink-200/100 font-barlow text-[0.8rem] md:text-[1.2rem] w-auto p-2 md:grid md:grid-cols-2 flex ">
+      <div className=" flex justify-center gap-5 w-4xl  items-center">
+        <div className="ml-4">
           <h1>@{year}</h1>
         </div>
-        <div className="">
+        <div className=" w-auto">
           <h1>Alysa Loraine Alinea, RN</h1>
         </div>
       </div>
